@@ -1,6 +1,6 @@
 # js-simon
 
-- Descrizione:
+Descrizione:
 
 • Visualizzare in pagina 5 numeri casuali. Da lì parte un timer di 30 secondi.
 
