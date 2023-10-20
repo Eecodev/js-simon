@@ -7,18 +7,16 @@
 */
 
 
-const btn = document.querySelector('btn');
+const btn = document.querySelector('.btn');
 
 let min = 1;
 let max = 100;
-const arrayTotNumbers = 5;
 const arrayList = [];
 
 btn.addEventListener('click',generateNumbers);
 
 function generateNumbers(){
-    for(let i = 0; i <= arrayTotNumbers.length; i++){
+    for(let i = 0; i <= 5; i++){
         arrayList.push(getRndInteger(1,100));
     }
-
 }
