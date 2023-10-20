@@ -1,0 +1,30 @@
+:root{
+    --ms-orange: #E67907;
+    --ms-yellow: #E5D401;
+    --ms-green: #24E502;
+    --ms-dark: #000000;
+    --ms-primary: #E12A12;
+    --ms-light: #ffffff;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#grid{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(45,100,0, 0.5);
+    margin: 30px auto;
+    display: flex;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+#number{
+    width: 50px;
+}
