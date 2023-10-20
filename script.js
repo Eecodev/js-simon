@@ -7,3 +7,13 @@
 */
 
 
+const btn = document.querySelector('btn');
+
+let number;
+let min = 1;
+let max = 100;
+let arrayNumbers = [];
+
+btn.addEventListener('click', function(){
+
+})
