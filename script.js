@@ -6,27 +6,19 @@
 * • Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati.
 */
 
-// const inviteeList = [];
-// for (let i = 0; i < 3; i++){
-//     let name;
-//     let surname;
-//     let invitee;
-//     name = nameList[getRndInteger(0, nameList.length -1)];
-//     surname = surnameList[getRndInteger(0, nameList.length -1)];
-//     invitee = name + '' + surname;
-//     console.log(invitee);
-//     inviteeList.push
-// }
-
 
 const btn = document.querySelector('btn');
 
 let min = 1;
 let max = 100;
-const ARRAY_NUMBERS = 5
-const arrayNumbers = [];
+const arrayTotNumbers = 5;
+const arrayList = [];
 
-btn.addEventListener('click',function(){
-    for(let i = 0; i <= ARRAY_NUMBERS.length; i++) {arrayNumbers.push(Math.random())}
-    
-})
+btn.addEventListener('click',generateNumbers);
+
+function generateNumbers(){
+    for(let i = 0; i <= arrayTotNumbers.length; i++){
+        arrayList.push(getRndInteger(1,100));
+    }
+
+}
