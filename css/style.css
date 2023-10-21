@@ -11,8 +11,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+#text-container{
+    display: flex;
+    justify-content: center;
+}
 
-#grid{
+#box-number{
     width: 200px;
     height: 200px;
     background-color: rgba(93, 109, 199, 0.739);
