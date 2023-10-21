@@ -7,13 +7,14 @@
 */
 
 
-const btn = document.querySelector('.btn');
+const buttonInsertNumber = document.querySelector('.btn');
 
 let min = 1;
 let max = 100;
-const arrayList = [];
+const randArrayList = [];
+let correctNum = [];
 
-btn.addEventListener('click',generateNumbers);
+buttonInsertNumber.addEventListener('click',generateNumbers);
 
 function generateNumbers(){
     for(let i = 0; i <= 5; i++){
