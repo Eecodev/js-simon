@@ -37,3 +37,6 @@ body{
 #number:hover{
     border-color: rgba(93, 109, 199, 0.739); 
 }
+.hidden{
+    display: hidden;
+}

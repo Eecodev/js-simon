@@ -27,10 +27,9 @@ function generateNumbers(){
 }
 setTimeout(insertNumber, 30000);
 
-
 function insertNumber(){
     boxNum.classList.add('hidden');
-    for(let i = 1; i < 5; i++){
+    for(let i = 1; i <= 5; i++){
         let insertedNumber = parseInt(prompt('Type the numbers'));
 
         if (randArrayList.includes(insertedNumber)) {
@@ -38,7 +37,7 @@ function insertNumber(){
 
             textCont.innerHTML="Numbers you have guessed are:";
             boxNum.innerHTML = ` ${correctNum}, `;
-            boxNum.classList.remove("hidden");
+            // boxNum.classList.remove("hidden");
         
         } else {
             console.log('oh no!');
@@ -49,7 +48,7 @@ function insertNumber(){
             textCont.innerHTML = 'Good job! You have guessed all the numbers';
             console.log('they match');
         } else if (correctNum.length === 0){
-            textCont.innerHTML = 'Oh no, you haven not guessed any numbers';
+            textCont.innerHTML = 'Oh no, you have not guessed any numbers';
             console.log('they don\'t match');
         }
     }
